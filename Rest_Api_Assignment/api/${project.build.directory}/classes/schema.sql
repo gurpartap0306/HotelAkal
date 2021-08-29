@@ -1,0 +1,7 @@
+CREATE TABLE HOTELS(
+  hotel_id BIGINT AUTO_INCREMENT PRIMARY KEY,
+  hotel_name VARCHAR(16) NOT NULL,
+  price VARCHAR(10) NOT NULL,
+  availability VARCHAR(5) NOT NULL
+);
+

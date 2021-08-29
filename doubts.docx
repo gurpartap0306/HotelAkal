@@ -1,0 +1,8 @@
+I have used MVVM architecture. I wanted to persist data temporarily from ViewModel using "savedstatehandle" in key pair format so that other viewmodels can access data to pass in associated views.
+
+I could not persist data so i stored it temporarily in objects and injected these objects in shared prefrence to access later. In some cases I have used sharedViewModel to pass data but in that case if i am changing the activity the data gets lost.
+
+My only doubt is how to persist data temporarily in MVVM;
+
+Scenario: In view "HotelGuestDetails.java".
+I got data from recyclerview about guestdetails and want to store data so that i can have access in viewmodel of next view.
